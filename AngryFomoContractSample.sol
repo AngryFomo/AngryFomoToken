@@ -13,7 +13,9 @@ pragma solidity 0.6.12;
 /**
  * @dev Interface of the BEP20 standard as defined in the EIP.
  */
+ 
 interface IBEP20 {
+
     /**
      * @dev Returns the amount of tokens in existence.
      */
@@ -1429,7 +1431,7 @@ contract AngryFOMOToken is BEP20, Ownable {
     uint256 public immutable totalFees;
 
     // sells have fees of 12 and 6 (10 * 1.2 and 5 * 1.2)
-    uint256 public sellFeeIncreaseFactor = 200; 
+    uint256 public sellFeeIncreaseFactor = 250; 
 
     // use by default 300,000 gas to process auto-claiming dividends
     uint256 public gasForProcessing = 300000;
@@ -1477,9 +1479,9 @@ contract AngryFOMOToken is BEP20, Ownable {
     event UpdatedCanTransferBeforeTrading(address  account, bool state);
     event UpdateTradingEnabledTimestamp(uint256 timestamp);
     constructor() public BEP20("AngryFOMO", "AFOMO", 9) {
-        uint256 _BNBRewardsFee = 6;
-        uint256 _liquidityFee = 3;
-        uint256 _marketingFee = 3; 
+        uint256 _BNBRewardsFee = 7;
+        uint256 _liquidityFee = 1;
+        uint256 _marketingFee = 4; 
         address burnAdd = 0x000000000000000000000000000000000000dEaD;
         BNBRewardsFee = _BNBRewardsFee;
         liquidityFee = _liquidityFee;
