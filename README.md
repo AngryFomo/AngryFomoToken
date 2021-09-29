@@ -2,11 +2,11 @@ Our new official token🚀💯
 
 Join Their Telegram Now - https://t.me/angryfomo
 
-💎 AngryFOMO - $AFOMO 
-💎 Earn 10% Double Rewards
-💎 100% Sound and safe investment
-💎 Massive exposure with 30k - 60k visitors daily
-💎 Potential x1000
+💎 AngryFOMO - $AFOMO    
+💎 Earn 10% Double Rewards    
+💎 100% Sound and safe investment   
+💎 Massive exposure with 30k - 60k visitors daily    
+💎 Potential x1000   
 
 Introducing AngryFOMO - $AFOMO token.
 
