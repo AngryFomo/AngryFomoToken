@@ -1,0 +1,2 @@
+# AngryFomoToken
+$AFOMO Token
