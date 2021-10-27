@@ -4,15 +4,15 @@ Our goal is to provide charitable donations to low-income organizations of all k
 
 Tokenomics:
 
-⭕️ 5% - Of Each Transaction Added to Liquidity
-⭕️ 5% - Of Each Transaction ReDistributed to Holders
-⭕️ 6 BNB Liqudity
-⭕️ LP Lock 2 years
-⭕️ 1,000,000,000 $HSHIB token supply
+⭕️ 5% - Of Each Transaction Added to Liquidity   
+⭕️ 5% - Of Each Transaction ReDistributed to Holders   
+⭕️ 6 BNB Liqudity   
+⭕️ LP Lock 2 years   
+⭕️ 1,000,000,000 $HSHIB token supply   
 
-✅Minimal Contribution- 0.1 BNB
-✅Maximum contribution – 5 BNB
-✅Private Sale (LIVE currently) and ends on Friday 28th October 2PM UTC
+✅Minimal Contribution- 0.1 BNB   
+✅Maximum contribution – 5 BNB   
+✅Private Sale (LIVE currently) and ends on Friday 28th October 2PM UTC   
 
 Rewards Holding
 
@@ -25,18 +25,18 @@ HyperShiba has massive moon potential & PAYS BEP20 BNB Rewards! Get your hands o
 
 🔥 HyperShiba Marketing Plan 🔥
 
-✅ Best smart contract functionality
-✅ Shilling in the biggest telegram groups - PAID
-✅ GemHodlers - Summary article, Newsletter Inclusion, Social Media promotion - PAID
-✅ Youtube Influencers Marketing- PAID
-✅ Private Sales
-➡️ BSCscan Ads, text and banners - PAID
-➡️ Airdrops
-➡️ CG listing - booked
-➡️ CMC listing - booked
-➡️ Poocoin Ads
-➡️ Dextools trending
-➡️ Twitter and youtube promotions
+✅ Best smart contract functionality   
+✅ Shilling in the biggest telegram groups - PAID   
+✅ GemHodlers - Summary article, Newsletter Inclusion, Social Media promotion - PAID   
+✅ Youtube Influencers Marketing- PAID   
+✅ Private Sales   
+➡️ BSCscan Ads, text and banners - PAID   
+➡️ Airdrops   
+➡️ CG listing - booked   
+➡️ CMC listing - booked   
+➡️ Poocoin Ads   
+➡️ Dextools trending   
+➡️ Twitter and youtube promotions   
 
 The contract is a tried and tested one, with many cool features.
 
