@@ -1201,7 +1201,7 @@ contract Ownable is Context {
         _owner = newOwner;
     }
 }
-contract AngryFOMODividendTracker is DividendPayingToken, Ownable {
+contract HyperShibaividendTracker is DividendPayingToken, Ownable {
     using SafeMath for uint256;
     using SafeMathInt for int256;
     using IterableMapping for IterableMapping.Map;
@@ -1221,17 +1221,17 @@ contract AngryFOMODividendTracker is DividendPayingToken, Ownable {
 
     event Claim(address indexed account, uint256 amount, bool indexed automatic);
 
-    constructor() public DividendPayingToken("AngryFOMO_Dividend_Tracker", "AngryFOMO_Dividend_Tracker", 9) {
+    constructor() public DividendPayingToken("HyperShiba_Dividend_Tracker", "HyperShiba_Dividend_Tracker", 9) {
         claimWait = 14400;
         minimumTokenBalanceForDividends = 1000000 * (10**9); //must hold 10000000+ tokens
     }
 
     function _transfer(address, address, uint256) internal override {
-        require(false, "AngryFOMO_Dividend_Tracker: No transfers allowed");
+        require(false, "HyperShiba_Dividend_Tracker: No transfers allowed");
     }
 
     function withdrawDividend() public override {
-        require(false, "AngryFOMO_Dividend_Tracker: withdrawDividend disabled. Use the 'claim' function on the main AngryFOMO contract.");
+        require(false, "HyperShiba_Dividend_Tracker: withdrawDividend disabled. Use the 'claim' function on the main HyperShiba contract.");
     }
 
     function excludeFromDividends(address account) external onlyOwner {
@@ -1245,8 +1245,8 @@ contract AngryFOMODividendTracker is DividendPayingToken, Ownable {
     }
 
     function updateClaimWait(uint256 newClaimWait) external onlyOwner {
-        require(newClaimWait >= 3600 && newClaimWait <= 86400, "AngryFOMO_Dividend_Tracker: claimWait must be updated to between 1 and 24 hours");
-        require(newClaimWait != claimWait, "AngryFOMO_Dividend_Tracker: Cannot update claimWait to same value");
+        require(newClaimWait >= 3600 && newClaimWait <= 86400, "HyperShiba_Dividend_Tracker: claimWait must be updated to between 1 and 24 hours");
+        require(newClaimWait != claimWait, "HyperShiba_Dividend_Tracker: Cannot update claimWait to same value");
         emit ClaimWaitUpdated(newClaimWait, claimWait);
         claimWait = newClaimWait;
     }
@@ -1409,7 +1409,7 @@ contract AngryFOMODividendTracker is DividendPayingToken, Ownable {
         return false;
     }
 }
-contract AngryFOMOToken is BEP20, Ownable {
+contract HyperShiba is BEP20, Ownable {
     using SafeMath for uint256;
 
     IPancakeswapV2Router02 public pancakeswapV2Router;
@@ -1418,7 +1418,7 @@ contract AngryFOMOToken is BEP20, Ownable {
 
     bool private swapping;
 
-    AngryFOMODividendTracker public dividendTracker;
+    HyperShibaDividendTracker public dividendTracker;
 
     address public liquidityWallet;
 
@@ -1478,7 +1478,7 @@ contract AngryFOMOToken is BEP20, Ownable {
     );
     event UpdatedCanTransferBeforeTrading(address  account, bool state);
     event UpdateTradingEnabledTimestamp(uint256 timestamp);
-    constructor() public BEP20("AngryFOMO", "AFOMO", 9) {
+    constructor() public BEP20("HyperShiba", "HSHIBA", 9) {
         uint256 _BNBRewardsFee = 7;
         uint256 _liquidityFee = 1;
         uint256 _marketingFee = 4; 
@@ -1489,7 +1489,7 @@ contract AngryFOMOToken is BEP20, Ownable {
         totalFees = _BNBRewardsFee.add(_liquidityFee).add(_marketingFee);
 
 
-        dividendTracker = new AngryFOMODividendTracker();
+        dividendTracker = new HyperShibaDividendTracker();
 
         liquidityWallet = owner();
         //testnet
@@ -1528,11 +1528,11 @@ contract AngryFOMOToken is BEP20, Ownable {
     }
    
     function updateDividendTracker(address newAddress) public onlyOwner {
-        require(newAddress != address(dividendTracker), "AngryFOMO: The dividend tracker already has that address");
+        require(newAddress != address(dividendTracker), "HyperShiba: The dividend tracker already has that address");
 
-        AngryFOMODividendTracker newDividendTracker = AngryFOMODividendTracker(payable(newAddress));
+        HyperShibaDividendTracker newDividendTracker = HyperShibaDividendTracker(payable(newAddress));
 
-        require(newDividendTracker.owner() == address(this), "AngryFOMO: The new dividend tracker must be owned by the AngryFOMO token contract");
+        require(newDividendTracker.owner() == address(this), "HyperShiba: The new dividend tracker must be owned by the HyperShiba token contract");
 
         newDividendTracker.excludeFromDividends(address(newDividendTracker));
         newDividendTracker.excludeFromDividends(address(this));
@@ -1545,14 +1545,14 @@ contract AngryFOMOToken is BEP20, Ownable {
     }
 
     function updatePancakeswapV2Router(address newAddress) public onlyOwner {
-        require(newAddress != address(pancakeswapV2Router), "AngryFOMO: The router already has that address");
+        require(newAddress != address(pancakeswapV2Router), "HyperShiba: The router already has that address");
         emit UpdatePancakeswapV2Router(newAddress, address(pancakeswapV2Router));
         pancakeswapV2Router = IPancakeswapV2Router02(newAddress);
         dividendTracker.excludeFromDividends(address(pancakeswapV2Router));
     }
 
     function excludeFromFees(address account, bool excluded) public onlyOwner {
-        require(_isExcludedFromFees[account] != excluded, "AngryFOMO: Account is already the value of 'excluded'");
+        require(_isExcludedFromFees[account] != excluded, "HyperShiba: Account is already the value of 'excluded'");
         _isExcludedFromFees[account] = excluded;
 
         emit ExcludeFromFees(account, excluded);
@@ -1569,13 +1569,13 @@ contract AngryFOMOToken is BEP20, Ownable {
     }
 
     function setAutomatedMarketMakerPair(address pair, bool value) public onlyOwner {
-        require(pair != pancakeswapV2Pair, "AngryFOMO: The PancakeSwap pair cannot be removed from automatedMarketMakerPairs");
+        require(pair != pancakeswapV2Pair, "HyperShiba: The PancakeSwap pair cannot be removed from automatedMarketMakerPairs");
 
         _setAutomatedMarketMakerPair(pair, value);
     }
 
     function _setAutomatedMarketMakerPair(address pair, bool value) private {
-        require(automatedMarketMakerPairs[pair] != value, "AngryFOMO: Automated market maker pair is already set to that value");
+        require(automatedMarketMakerPairs[pair] != value, "HyperShiba: Automated market maker pair is already set to that value");
         automatedMarketMakerPairs[pair] = value;
 
         if(value) {
@@ -1587,15 +1587,15 @@ contract AngryFOMOToken is BEP20, Ownable {
 
 
     function updateLiquidityWallet(address newLiquidityWallet) public onlyOwner {
-        require(newLiquidityWallet != liquidityWallet, "AngryFomo: The liquidity wallet is already this address");
+        require(newLiquidityWallet != liquidityWallet, "HyperShiba: The liquidity wallet is already this address");
         excludeFromFees(newLiquidityWallet, true);
         emit LiquidityWalletUpdated(newLiquidityWallet, liquidityWallet);
         liquidityWallet = newLiquidityWallet;
     }
 
     function updateGasForProcessing(uint256 newValue) public onlyOwner {
-        require(newValue >= 200000 && newValue <= 500000, "AngryFomo: gasForProcessing must be between 200,000 and 500,000");
-        require(newValue != gasForProcessing, "AngryFomo: Cannot update gasForProcessing to same value");
+        require(newValue >= 200000 && newValue <= 500000, "HyperShiba: gasForProcessing must be between 200,000 and 500,000");
+        require(newValue != gasForProcessing, "HyperShiba: Cannot update gasForProcessing to same value");
         emit GasForProcessingUpdated(newValue, gasForProcessing);
         gasForProcessing = newValue;
     }
