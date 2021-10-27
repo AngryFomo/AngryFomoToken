@@ -1,60 +1,47 @@
-Our new official token🚀💯
+🔥 HyperShiba 🔥 Fair Launch 28th 16:00 UTC ⚡️ Big RoadMap - x100 potential daily 💸
 
-Join Their Telegram Now - https://t.me/angryfomo
+Our goal is to provide charitable donations to low-income organizations of all kinds, such as animal shelters. Donations will be chosen in the community and each holder will have voting power to choose which organization they want the money to go to. We want the world to be a better place!
 
-💎 AngryFOMO - $AFOMO    
-💎 Earn 10% Double Rewards    
-💎 100% Sound and safe investment   
-💎 Massive exposure with 30k - 60k visitors daily    
-💎 Potential x1000   
+Tokenomics:
 
-Introducing AngryFOMO - $AFOMO token.
+⭕️ 5% - Of Each Transaction Added to Liquidity
+⭕️ 5% - Of Each Transaction ReDistributed to Holders
+⭕️ 6 BNB Liqudity
+⭕️ LP Lock 2 years
+⭕️ 1,000,000,000 $HSHIB token supply
 
-Every 4 hours you will have BNB + AFOMO reflections sent directly to your wallet.
+✅Minimal Contribution- 0.1 BNB
+✅Maximum contribution – 5 BNB
+✅Private Sale (LIVE currently) and ends on Friday 28th October 2PM UTC
 
-The buy tax will be lower than the sell, meaning that holders will be rewarded in the end. Bigger HODLer gets bigger rewards !
+Rewards Holding
 
-Beta tests of the AngryFOMO game has also been revealed, it'll be up on the upcoming website !
+5% of each transaction is redistributed to token holders. That means you earn more $HSHIB by just holding them in your wallet.
 
-HOLDER REWARDS
+Grows in your wallet
 
-💰 10% Rewards (7% $BNB, 3% $AFOMO)   
-🔥 2% Burn   
-📈 3% Marketing   
-⚙️ 1% Liquidity   
-🔒 Liquidity will be locked for 2 years !   
-🚀 Professional Dev and team   
-🚀 One of the most Transparent and Strongest Communities   
-🧨 Total Supply: 10 Billion   
+HyperShiba has massive moon potential & PAYS BEP20 BNB Rewards! Get your hands on that BNB and watch your rewards double, triple on and on as BNB continues to do what it’s always done. PUMP to NEW ALL TIME HIGHS!
 
-Buy tax: 16%
 
-1% back to LP   
-2% burn   
-3% marketing wallet   
-7% BNB Reflections   
-3% AFOMO Reflections   
+🔥 HyperShiba Marketing Plan 🔥
 
-Sell Tax: 17%
+✅ Best smart contract functionality
+✅ Shilling in the biggest telegram groups - PAID
+✅ GemHodlers - Summary article, Newsletter Inclusion, Social Media promotion - PAID
+✅ Youtube Influencers Marketing- PAID
+✅ Private Sales
+➡️ BSCscan Ads, text and banners - PAID
+➡️ Airdrops
+➡️ CG listing - booked
+➡️ CMC listing - booked
+➡️ Poocoin Ads
+➡️ Dextools trending
+➡️ Twitter and youtube promotions
 
-2% back to LP   
-2% burn   
-3% marketing wallet   
-7% BNB Reflections   
-3% AFOMO Reflections   
+The contract is a tried and tested one, with many cool features.
 
-✨Why invest in AngryFOMO token?
+🔗 Join the community and feel the great vibe!
 
-✅ We are sure you are tired of Rugpulls and scams. When we launched AngryFOMO our idea was to first have a successful working project and now we are in the process of expanding it into a much bigger project.   
-✅ Think CoinMarketCap 2.0. + NFT Platform + STAKING.   
-✅ AngryFOMO token is a use case token.   
-✅ We will have unlimited Marketing on our website that will benefit the token and our community.   
-✅ Our advertisers will get a 20-30% discount if they pay using our token. This will help increase our token's price   
-✅ The tokenomics that we have will allow token holders to earn passive income.   
-✅ The new features that we implement will be community driven.   
+#HSHIB
 
-Contract Address : TBA
-
-🖲 Telegram - https://t.me/angryfomo   
-💻 Website - https://angryfomo.com/   
-🐦 Twitter- https://twitter.com/angryfomo   
+💬 Chat: https://t.me/officialhypershiba
