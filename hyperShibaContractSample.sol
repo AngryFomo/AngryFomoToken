@@ -2,7 +2,7 @@
 
 Fork of BNBRAIN.
 
-BnbVerse is built upon the fundamentals of Rewards and Buyback and increasing the investor's value                                                                                                       
+HyperShiba is built upon the fundamentals of Rewards and Buyback and increasing the investor's value                                                                                                       
 
 */
 
